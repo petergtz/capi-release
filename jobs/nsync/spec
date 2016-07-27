@@ -9,6 +9,7 @@ templates:
   bbs_ca.crt.erb: config/certs/bbs/ca.crt
   bbs_client.crt.erb: config/certs/bbs/client.crt
   bbs_client.key.erb: config/certs/bbs/client.key
+  pre-start.sh.erb: bin/pre-start
 
 packages:
   - capi_utils
