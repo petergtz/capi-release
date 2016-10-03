@@ -30,6 +30,7 @@ files:
   - capi-release/src/code.cloudfoundry.org/stager/diego_errors/*.go # gosub
   - capi-release/src/code.cloudfoundry.org/stager/handlers/*.go # gosub
   - capi-release/src/code.cloudfoundry.org/stager/vars/*.go # gosub
+  - capi-release/src/code.cloudfoundry.org/urljoiner/*.go # gosub
   - capi-release/src/github.com/bmizerany/pat/*.go # gosub
   - capi-release/src/github.com/cloudfoundry/dropsonde/*.go # gosub
   - capi-release/src/github.com/cloudfoundry/dropsonde/emitter/*.go # gosub
@@ -46,7 +47,6 @@ files:
   - capi-release/src/github.com/cloudfoundry/dropsonde/runtime_stats/*.go # gosub
   - capi-release/src/github.com/cloudfoundry/gosteno/*.go # gosub
   - capi-release/src/github.com/cloudfoundry/gosteno/syslog/*.go # gosub
-  - capi-release/src/github.com/cloudfoundry/gunk/urljoiner/*.go # gosub
   - capi-release/src/github.com/cloudfoundry/sonde-go/events/*.go # gosub
   - capi-release/src/github.com/gogo/protobuf/gogoproto/*.go # gosub
   - capi-release/src/github.com/gogo/protobuf/proto/*.go # gosub

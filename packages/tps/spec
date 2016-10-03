@@ -35,6 +35,8 @@ files:
   - capi-release/src/code.cloudfoundry.org/tps/handler/lrpstats/*.go # gosub
   - capi-release/src/code.cloudfoundry.org/tps/handler/lrpstatus/*.go # gosub
   - capi-release/src/code.cloudfoundry.org/tps/watcher/*.go # gosub
+  - capi-release/src/code.cloudfoundry.org/urljoiner/*.go # gosub
+  - capi-release/src/code.cloudfoundry.org/workpool/*.go # gosub
   - capi-release/src/github.com/bmizerany/pat/*.go # gosub
   - capi-release/src/github.com/cloudfoundry-incubator/routing-info/cfroutes/*.go # gosub
   - capi-release/src/github.com/cloudfoundry-incubator/routing-info/tcp_routes/*.go # gosub
@@ -53,8 +55,6 @@ files:
   - capi-release/src/github.com/cloudfoundry/dropsonde/runtime_stats/*.go # gosub
   - capi-release/src/github.com/cloudfoundry/gosteno/*.go # gosub
   - capi-release/src/github.com/cloudfoundry/gosteno/syslog/*.go # gosub
-  - capi-release/src/github.com/cloudfoundry/gunk/urljoiner/*.go # gosub
-  - capi-release/src/github.com/cloudfoundry/gunk/workpool/*.go # gosub
   - capi-release/src/github.com/cloudfoundry/noaa/*.go # gosub
   - capi-release/src/github.com/cloudfoundry/noaa/consumer/*.go # gosub
   - capi-release/src/github.com/cloudfoundry/noaa/errors/*.go # gosub

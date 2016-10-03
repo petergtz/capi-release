@@ -31,6 +31,8 @@ files:
   - capi-release/src/code.cloudfoundry.org/runtimeschema/cc_messages/*.go # gosub
   - capi-release/src/code.cloudfoundry.org/runtimeschema/cc_messages/flags/*.go # gosub
   - capi-release/src/code.cloudfoundry.org/runtimeschema/metric/*.go # gosub
+  - capi-release/src/code.cloudfoundry.org/urljoiner/*.go # gosub
+  - capi-release/src/code.cloudfoundry.org/workpool/*.go # gosub
   - capi-release/src/github.com/bmizerany/pat/*.go # gosub
   - capi-release/src/github.com/cloudfoundry-incubator/routing-info/cfroutes/*.go # gosub
   - capi-release/src/github.com/cloudfoundry-incubator/routing-info/tcp_routes/*.go # gosub
@@ -49,8 +51,6 @@ files:
   - capi-release/src/github.com/cloudfoundry/dropsonde/runtime_stats/*.go # gosub
   - capi-release/src/github.com/cloudfoundry/gosteno/*.go # gosub
   - capi-release/src/github.com/cloudfoundry/gosteno/syslog/*.go # gosub
-  - capi-release/src/github.com/cloudfoundry/gunk/urljoiner/*.go # gosub
-  - capi-release/src/github.com/cloudfoundry/gunk/workpool/*.go # gosub
   - capi-release/src/github.com/cloudfoundry/sonde-go/events/*.go # gosub
   - capi-release/src/github.com/gogo/protobuf/gogoproto/*.go # gosub
   - capi-release/src/github.com/gogo/protobuf/proto/*.go # gosub
