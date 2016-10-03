@@ -143,3 +143,6 @@
 [submodule "src/code.cloudfoundry.org/urljoiner"]
 	path = src/code.cloudfoundry.org/urljoiner
 	url = https://github.com/cloudfoundry/urljoiner
+[submodule "src/code.cloudfoundry.org/workpool"]
+	path = src/code.cloudfoundry.org/workpool
+	url = https://github.com/cloudfoundry/workpool
