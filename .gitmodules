@@ -140,3 +140,6 @@
 	path = src/code.cloudfoundry.org/bbs
 	url = https://github.com/cloudfoundry/bbs
 	branch = master
+[submodule "src/code.cloudfoundry.org/urljoiner"]
+	path = src/code.cloudfoundry.org/urljoiner
+	url = https://github.com/cloudfoundry/urljoiner
