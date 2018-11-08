@@ -245,6 +245,9 @@ diego:
     key_file: /var/vcap/jobs/cloud_controller_worker/config/certs/mutual_tls.key
     cert_file: /var/vcap/jobs/cloud_controller_worker/config/certs/mutual_tls.crt
     ca_file: /var/vcap/jobs/cloud_controller_worker/config/certs/mutual_tls_ca.crt
+    connect_timeout: <%= p("cc.diego.bbs.connect_timeout") %>
+    send_timeout: <%= p("cc.diego.bbs.send_timeout") %>
+    receive_timeout: <%= p("cc.diego.bbs.receive_timeout") %>
   pid_limit: <%= p("cc.diego.pid_limit") %>
 
 <% if p("routing_api.enabled") %>

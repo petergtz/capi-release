@@ -379,6 +379,9 @@ diego:
     key_file: /var/vcap/jobs/cloud_controller_ng/config/certs/mutual_tls.key
     cert_file: /var/vcap/jobs/cloud_controller_ng/config/certs/mutual_tls.crt
     ca_file: /var/vcap/jobs/cloud_controller_ng/config/certs/mutual_tls_ca.crt
+    connect_timeout: <%= p("cc.diego.bbs.connect_timeout") %>
+    send_timeout: <%= p("cc.diego.bbs.send_timeout") %>
+    receive_timeout: <%= p("cc.diego.bbs.receive_timeout") %>
   cc_uploader_url: <%= cc_uploader_url %>
   docker_staging_stack: <%= p("cc.diego.docker_staging_stack") %>
   file_server_url: <%= p("cc.diego.file_server_url") %>

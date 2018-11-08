@@ -482,6 +482,15 @@ properties:
   cc.diego.bbs.url:
     description: "URL of the BBS Server"
     default: https://bbs.service.cf.internal:8889
+  cc.diego.bbs.connect_timeout:
+    description: "Connect timeout when talking to BBS Server"
+    default: 10
+  cc.diego.bbs.send_timeout:
+    description: "Send timeout when talking to BBS Server"
+    default: 10
+  cc.diego.bbs.receive_timeout:
+    description: "Receive timeout when talking to BBS Server"
+    default: 10
 
   cc.mutual_tls.ca_cert:
     description: "PEM-encoded CA certificate for secure, mutually authenticated TLS communication"
