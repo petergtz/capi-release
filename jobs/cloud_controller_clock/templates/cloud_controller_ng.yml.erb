@@ -158,6 +158,10 @@ bits_service:
   private_endpoint: <%= p("cc.bits_service.private_endpoint") %>
   username: <%= p("cc.bits_service.username") %>
   password: <%= yaml_escape(p("cc.bits_service.password")) %>
+  <% if_link("bits_service_active_signing_key") do |active_signing_key| %>
+  signing_key_id: <%= active_signing_key.p("bits-service.active_signing_key.key_id") %>
+  signing_key_secret: <%= active_signing_key.p("bits-service.active_signing_key.secret") %>
+  <% end %>
 
 resource_pool:
   blobstore_type: <%= p("cc.resource_pool.blobstore_type") %>

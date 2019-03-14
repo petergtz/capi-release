@@ -204,6 +204,10 @@ bits_service:
   private_endpoint: <%= link("cloud_controller_internal").p("cc.bits_service.private_endpoint") %>
   username: <%= link("cloud_controller_internal").p("cc.bits_service.username") %>
   password: <%= yaml_escape(link("cloud_controller_internal").p("cc.bits_service.password")) %>
+  <% if_link("bits_service_active_signing_key") do |active_signing_key| %>
+  signing_key_id: <%= active_signing_key.p("bits-service.active_signing_key.key_id") %>
+  signing_key_secret: <%= active_signing_key.p("bits-service.active_signing_key.secret") %>
+  <% end %>
 
 skip_cert_verify: <%= link("cloud_controller_internal").p("ssl.skip_cert_verify") %>
 
