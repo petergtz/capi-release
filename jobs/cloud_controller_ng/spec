@@ -235,6 +235,9 @@ consumes:
 - name: log-cache
   type: log-cache
   optional: true
+- name: bits_service_active_signing_key
+  type: bits_service_active_signing_key
+  optional: true
 
 properties:
   bpm.enabled:

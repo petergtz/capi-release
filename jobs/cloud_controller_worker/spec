@@ -58,6 +58,9 @@ consumes:
 - name: cloud_controller_internal
   type: cloud_controller_internal
   optional: true
+- name: bits_service_active_signing_key
+  type: bits_service_active_signing_key
+  optional: true
 
 properties:
   bpm.enabled:
